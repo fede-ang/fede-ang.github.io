@@ -1,0 +1,15 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.title {
+  color: #0033FF;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
