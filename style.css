@@ -1,15 +1,95 @@
-p {
-  font-family: Arial;
+
+* {
+  box-sizing: border-box;
 }
+
+body {
+  background-color: white;
+  /* add a mesmerizing visual background */
+}
+
+p {
+  font-family: 'Yantramanav', sans-serif;
+  text-align: center;
+
+
+}
+
+p.caption {
+  color: white;
+}
+
 
 h1 {
   font-size: 50px;
+  font-family: ocr-a-std, monospace;
+  text-align: center;
+
+}
+
+
+
+h2 {
+  font-size: 40px;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: left;
+
+}
+
+
+h1.button {
+  height: 0 auto;
+  width: 40%;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+.button:hover {
+  background: black;
+  color: white;
 }
 
 .title {
   color: #0033FF;
 }
 
+div.box {
+  width: 40%;
+  height: 70px;
+
+  margin: 50px;
+  margin-top: 30px;
+}
+
+
+
+
+
 .uppercase {
   text-transform: uppercase;
 }
+
+
+div.container {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+#quote {
+  color: white;
+}
+
+#onclick {
+  cursor: pointer;
+
+}
+
+
+/*
+.align {
+  text-align: center;
+}
+*/
